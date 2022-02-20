@@ -1,0 +1,30 @@
+#include<studio.h>
+
+main()
+{
+    int tope=0;
+    int multi1=1,multi2=1
+    int result=0;
+    int contador1=0,contador2=1;
+
+    printf("Introduzca número máximo tabla multiplicar:");
+    scanf("%d",&tope);
+
+    while (contador1 <= tope)
+    {
+        printf("TABLA MULTIPLICAR DEL %d \n",contador1);
+        printf("#########################\n");
+        // Calcula tabla multiplicar de contador1
+        for (contador2=1;contador2<=10;contador++)
+        {
+            printf ("%d por %d es %d\n", contador1,contador2,contador1*contador2);
+        }
+        printf("\n\n");
+
+
+    }
+
+
+
+
+}
