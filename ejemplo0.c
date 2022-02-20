@@ -1,9 +1,8 @@
-#include<studio.h>
+#include<stdio.h>
 
-main()
+int main()
 {
     int tope=0;
-    int multi1=1,multi2=1
     int result=0;
     int contador1=0,contador2=1;
 
@@ -15,14 +14,14 @@ main()
         printf("TABLA MULTIPLICAR DEL %d \n",contador1);
         printf("#########################\n");
         // Calcula tabla multiplicar de contador1
-        for (contador2=1;contador2<=10;contador++)
+        for (contador2=1;contador2<=10;contador2++)
         {
             printf ("%d por %d es %d\n", contador1,contador2,contador1*contador2);
         }
+        contador1++;
         printf("\n\n");
-
-
     }
+    return 0;
 
 
 
