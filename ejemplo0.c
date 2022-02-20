@@ -1,10 +1,10 @@
 #include<stdio.h>
-
+// Calcula la tabla de multiplicar desde el 1 hasta el número introducido.
 int main()
 {
     int tope=0;
     int result=0;
-    int contador1=0,contador2=1;
+    int contador1=1,contador2=1;
 
     printf("Introduzca número máximo tabla multiplicar:");
     scanf("%d",&tope);
