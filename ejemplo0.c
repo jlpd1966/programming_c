@@ -1,5 +1,5 @@
 #include<stdio.h>
-// Calcula la tabla de multiplicar desde el 1 hasta el número introducido.
+/* Calcula la tabla de multiplicar desde el 1 hasta el número introducido.*/
 int main()
 {
     int tope=0;
